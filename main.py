@@ -18,7 +18,7 @@ if __name__ == "__main__":
     
     option = -1
     
-    while option != 3:
+    while option != 6:
         print("1) Sumar")
         print("2) Restar")
         print("3) Potencia de 2")
