@@ -10,6 +10,9 @@ def power_of_two(a):
 def multiplicar(a, b):
     return a * b
 
+def dividir(a, b):
+    return a / b
+
 if __name__ == "__main__":
     print("[INICIANDO] Aplicacion inicializada!")
     
@@ -20,7 +23,8 @@ if __name__ == "__main__":
         print("2) Restar")
         print("3) Potencia de 2")
         print("4) Multiplicar")
-        print("5) Salir")
+        print("5) Dividir")
+        print("6) Salir")
         option = int(input("Ingrese una opcion: "))
         
         if option == 1:
@@ -39,6 +43,10 @@ if __name__ == "__main__":
             b = int(input("Ingrese el segundo numero: "))
             print("[RESULT] El resultado es:", multiplicar(a, b))
         elif option == 5:
+            a = int(input("Ingrese el primer numero: "))
+            b = int(input("Ingrese el segundo numero: "))
+            print("[RESULT] El resultado es:", dividir(a, b))
+        elif option == 6:
             print("[FINISHING] Saliendo...")
         else:
             print("[ERROR] Opcion invalida!")
