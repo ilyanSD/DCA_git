@@ -4,6 +4,9 @@ def sumar(a, b):
 def restar(a, b):
     return a - b
 
+def power_of_two(a):
+    return a ** 3
+
 if __name__ == "__main__":
     print("[INICIANDO] Aplicacion inicializada!")
     
@@ -12,7 +15,8 @@ if __name__ == "__main__":
     while option != 3:
         print("1) Sumar")
         print("2) Restar")
-        print("3) Salir")
+        print("3) Potencia de 2")
+        print("4) Salir")
         option = int(input("Ingrese una opcion: "))
         
         if option == 1:
@@ -24,6 +28,9 @@ if __name__ == "__main__":
             b = int(input("Ingrese el segundo numero: "))
             print("[RESULT] El resultado es:", restar(a, b))
         elif option == 3:
+            a = int(input("Ingrese un numero: "))
+            print("[RESULT] El resultado es:", power_of_two(a))
+        elif option == 4:
             print("[FINISHING] Saliendo...")
         else:
             print("[ERROR] Opcion invalida!")
