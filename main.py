@@ -5,7 +5,7 @@ def restar(a, b):
     return a - b
 
 def power_of_two(a):
-    return a ** 3
+    return a ** 2
 
 def multiplicar(a, b):
     return a * b
