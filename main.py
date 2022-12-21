@@ -15,6 +15,7 @@ def dividir(a, b):
 
 if __name__ == "__main__":
     print("[INICIANDO] Aplicacion inicializada!")
+    print("Creado por @isd11")
     
     option = -1
     
