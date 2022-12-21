@@ -15,7 +15,7 @@ def dividir(a, b):
 
 if __name__ == "__main__":
     print("[INICIANDO] Aplicacion inicializada!")
-    print("Creado por @isd11")
+    print("Creado por @isd11 para la asignatura de DCA")
     
     option = -1
     

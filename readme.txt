@@ -27,7 +27,11 @@ Date:   Wed Dec 21 20:05:41 2022 +0100
 
     Creada funcion potencia
 
- main.py | 9 ++++++++-
- 1 file changed, 8 insertions(+), 1 deletion(-)
+main.py | 9 ++++++++-
+1 file changed, 8 insertions(+), 1 deletion(-)
 
- Esto nos dice que archivos se han cambiado, y el hash del primer commit que implementa el error. A partir de ahora ejecutamos "git bisect reset" para volver del modo "dettached" al commit apuntado por HEAD y procedemos a arreglar el error.
+Esto nos dice que archivos se han cambiado, y el hash del primer commit que implementa el error. A partir de ahora ejecutamos "git bisect reset" para volver del modo "dettached" al commit apuntado por HEAD y procedemos a arreglar el error.
+
+---------------------------------------------------------------
+
+Tambien se ha creado un hook que cuando se hace "push" advierte al usuario por consola que esta subiendo cambios al repositorio remoto
